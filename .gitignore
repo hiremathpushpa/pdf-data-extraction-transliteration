@@ -10,3 +10,7 @@ out/*
 __pycache__/
 *.pyc
 .DS_Store 
+
+# Allow latest output files to be tracked
+!out/part3_extracted.txt
+!out/part3_transliterated.txt
