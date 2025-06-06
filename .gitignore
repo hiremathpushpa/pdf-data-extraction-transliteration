@@ -1,0 +1,14 @@
+# Ignore environment and secret files
+.env
+*.env
+env.txt
+
+# Ignore all output files except the latest ones
+out/*
+!out/Extraction_Data_part3_20250605_195849.txt
+!out/Hybrid_transliterated_part3_20250605_195849.txt
+
+# Python cache and system files
+__pycache__/
+*.pyc
+.DS_Store 
